@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #E8E7C2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0px;
+    
+}
+
+
+.content {
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.349);
+    padding: 1px;
+    margin: 0px auto;
+    max-width: 800px;
+}
+.main-content-title01 {
+    font-family: 'idroid', sans-serif;
+    text-align: left;
+    padding: 10px;
+    color: rgb(2, 80, 2);
+    font-size: 30px;
+    
+}
+.main-content-caption {
+    font-family: 'idroid', sans-serif;
+    text-align: left;
+    padding: 4px;
+    color: rgb(2, 80, 2);
+    background-image: linear-gradient(to right, #2fa86557, #ffffff00);
+    font-size: 20px;
+    margin: 10px;
+}
+.main-content-paragraph {
+    text-align: justify;
+    padding: 10px;
+}
+.first-line-indent {
+    text-indent: 25px; /* Adjust this value as needed */
+    display: inline-block;
+}
+
+.image-container {
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.center-image {
+    max-width: 350px;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+}
+
+.video-section{
+    display: block;
+    background-color: green;
+    box-shadow: 3px 3px 8px #0000008e;
+    align-items: center;
+}
+
+.box-container {
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.349);
+    padding: 10px;
+    margin: 0px auto;
+    max-width: 800px;
+}
+
+.green-box-container {
+    background-color: green;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.349);
+    padding: 10px;
+    margin: 0px auto;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+
+.caption-title {
+    background-color: rgb(114, 224, 114);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px auto;
+    
+}
+ul li::marker {
+  content: '✓';
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+}
