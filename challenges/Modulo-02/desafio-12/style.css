@@ -5,14 +5,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    text-decoration: none;
-    width: 100%;
-    
+    text-decoration: none; 
 }
 
-body {
+html, body {
+    min-width: 100%;
     background-color: white;
 }
 
@@ -22,86 +19,64 @@ header {
     padding: 20px;
 }
 
-h1 {
+header > h1 {
     color: white;
     font-family: 'Passion one', sans-serif;
     text-align: center;
+    font-variant: small-caps;
 }
 
-header p {
+header > p {
     font-family: 'Sriracha', sans-serif;
     color: white;
     text-align: center;
 }
 
-a {
+header a, footer a {
     color: white;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha', sans-serif;
 }
 
 pre {
     font-family: 'Sriracha', sans-serif;
-    font-size: 18px;
-    
 }
 
-section.content-01 {
-    background-color: #ffffff;
+section.content-normal {
+    background-color: white;
+    color: black;
 }
 
-article.inside-content-01 {
-    text-align: left;
-    background-position: left center;
+
+section.content-image {
+    background-color: black;
+    background-image: url('');
+    color: white;
 }
 
-pre.text-content-01 {
-    text-align: left;
-    padding: 0px;
-    background-position: left center;
-}
-
-section.content-02 {
-    position: relative;
-    background-image: url('imagens/background001.jpg');
-    
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover; /* Ensures full coverage */
-    height: 30vh;
-}
-
-article.inside-content-02 {
-    background-color: #0000008e;
-    background-size: 100%;
+section.content-image > pre {
+    background-color: #f50d0d57;
     width: 300px;
-    max-width: 90%;
-    padding: 15px;
-    background-size: contain;
+    padding-left: 10px;
+   
 }
 
-pre.text-content-02 {
-    color: white; 
+
+footer {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
-section.content-03 {
-    position: relative;
-    background-image: url('imagens/background002.jpg');
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover; /* Ensures full coverage */
-    height: 30vh;
-}
-
-article.inside-content-03 {
-    background-color: #0000008e;
-    background-size: 100%;
-    width: 300px;
-    max-width: 90%;
-    padding: 15px;
-    background-size: contain;
-}
-
-pre.text-content-03 {
-    color: white; 
-}
