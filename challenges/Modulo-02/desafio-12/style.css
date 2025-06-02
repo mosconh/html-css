@@ -5,12 +5,13 @@
 *{
     margin: 0px;
     padding: 0px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 html, body {
     min-width: 100%;
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -24,10 +25,11 @@ header > h1 {
     font-family: 'Passion one', sans-serif;
     text-align: center;
     font-variant: small-caps;
+    font-size: 7vh;
 }
 
 header > p {
-    font-family: 'Sriracha', sans-serif;
+    font-family: 'Sriracha', 'cursive';
     color: white;
     text-align: center;
 }
@@ -46,11 +48,12 @@ section {
     padding-bottom: 10%;
     line-height: 2em;
     padding-left: 30px;
-    font-family: 'Sriracha', sans-serif;
+    font-family: 'Sriracha', 'cursive';
+    font-size: 1.8vh;
 }
 
 pre {
-    font-family: 'Sriracha', sans-serif;
+    font-family: 'Sriracha', 'cursive';
 }
 
 section.content-normal {
@@ -63,14 +66,29 @@ section.content-image {
     background-color: black;
     background-image: url('');
     color: white;
+    box-shadow: inset 6px 6px 13px  0px #00000098;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.content-image > pre {
-    background-color: #f50d0d57;
+    background-color: #3d3d3d57;
     width: 300px;
     padding-left: 10px;
-   
 }
+
+section#image-01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+section#image-02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;    
+}
+
 
 
 footer {
